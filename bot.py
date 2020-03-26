@@ -640,6 +640,6 @@ async def help(ctx):
 
 
 # Connect
-token = open('token.txt', 'r').readline()
+token = os.environ.get('BOT_TOKEN')
 
 client.run(token)
