@@ -1,4 +1,4 @@
-discord.py (или свой API)
+discord.py
 aiohttp
 websockets
 chardet
