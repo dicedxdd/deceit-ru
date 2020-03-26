@@ -623,6 +623,4 @@ async def on_voice_state_update(member, before, after):
 
         
 # Connect
-token = open('token.txt', 'r').readline()
-
-client.run(token)
+token = os.environ.get('BOT_TOKEN')
